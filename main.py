@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import kaleido
 
-file = "C:\\Users\\User\\Desktop\\Portfolio_Python\\projet_python_SQL\\data\\ecommerce_sales_data.csv"
+file = "ecommerce_sales_data.csv"
 
 # Ouvrir le fichier et analyser les en-têtes / Opening the file and analysing the headers
 df = pd.read_csv(file)
@@ -159,4 +159,4 @@ fig.add_annotation(
     row=1, col=1
 )
 
-fig.write_image("C:\\Users\\User\\Desktop\\Portfolio_Python\\projet_python_SQL\\images\\dashboard.png")
+fig.write_image("images\\dashboard.png")
